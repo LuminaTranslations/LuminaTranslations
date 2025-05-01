@@ -1,0 +1,17 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 1em;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #f4f4f4;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
