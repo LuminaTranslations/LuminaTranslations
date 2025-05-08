@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina Translations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #0d1b2a;
+      color: #ffffff;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+    .logo {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .moon {
+      color: #f4d160;
+      font-size: 3rem;
+      margin-right: 0.5rem;
+    }
+    .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #f4d160;
+      display: inline-block;
+    }
+    .novel-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .novel {
+      background-color: #1b263b;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .novel img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .novel-info {
+      padding: 0.5rem 1rem 1rem;
+    }
+    .novel-title {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    .buttons {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .buttons a {
+      margin: 0 1rem;
+      background-color: #f4d160;
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><span class="moon">&#9789;</span>Lumina Translations</div>
+  </header>
+  <div class="content">
+    <h2>Latest Releases</h2>
+    <div class="novel-list">
+      <div class="novel">
+        <img src="https://via.placeholder.com/300x450?text=Mythic+Hero" alt="Mythic Hero">
+        <div class="novel-info">
+          <div class="novel-title">Mythic Hero</div>
+          <p>1,500 Viewers</p>
+        </div>
+      </div>
+      <div class="novel">
+        <img src="https://via.placeholder.com/300x450?text=Celestial+Harmony" alt="Celestial Harmony">
+        <div class="novel-info">
+          <div class="novel-title">Celestial Harmony</div>
+          <p>1,200 Viewers</p>
+        </div>
+      </div>
+      <div class="novel">
+        <img src="https://via.placeholder.com/300x450?text=Dragon+Emperor" alt="Dragon Emperor">
+        <div class="novel-info">
+          <div class="novel-title">Dragon Emperor</div>
+          <p>1,700 Viewers</p>
+        </div>
+      </div>
+      <div class="novel">
+        <img src="https://via.placeholder.com/300x450?text=The+Jade+Palace" alt="The Jade Palace">
+        <div class="novel-info">
+          <div class="novel-title">The Jade Palace</div>
+          <p>900 Viewers</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <p>Support on Ko-fi or Patreon</p>
+      <a href="#">Ko-fi</a>
+      <a href="#">Patreon</a>
+    </div>
+  </div>
+</body>
+</html>
